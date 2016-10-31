@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package lib;
+
+message Test {
+    string label = 1;
+    int32 type = 2;
+    repeated int64 reps = 3;
+}

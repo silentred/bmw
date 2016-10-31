@@ -1,0 +1,9 @@
+{
+    "listenPort" : ":{{pillar['MS']['RECORDER']['PORT']}}",
+    "mqttServer" : "tcp://{{pillar['IM']['INNER_DOMAIN']}}:{{pillar['IM']['MQTT_PORT']}}",
+    "mqttClientid" : "Robot-Recorder",
+    "mqttCleanSession" : false,
+    "mqttUsername" : "{{pillar['IM']['USERNAME']}}",
+    "mqttPassword" : "{{pillar['IM']['PASSWORD']}}",
+    "mqttQos" : "0"
+}

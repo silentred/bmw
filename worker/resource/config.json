@@ -1,0 +1,16 @@
+{
+    "listenPort": ":8085",
+    "qiniuAccessToken": "IZy_H_8V09pFN0d4D_CROnezQ6UaMwqdcJ9PN2rx",
+    "qiniuSecretToken": "uNq3vv-709geTDx06d4t8g0Hyec8N_HY1rswzTVJ",
+    "s3Region": "us-west-1",
+    "s3Credentials": "./credentials",
+    "bucketDomainMap": {
+        "fame-private":           "f0.nihao.com",
+		"fame-public":            "f1.nihao.com",
+        "dev-resource":            "7xqgm2.com2.z0.glb.qiniucdn.com",
+		"fame-private-us-west-1": "dtxwytoppugh2.cloudfront.net",
+        "fame-dev": "s3-us-west-1.amazonaws.com/fame-dev"
+    },
+    "allBuckets": ["fame-private", "fame-public", "fame-private-us-west-1", "dev-resource", "fame-dev"],
+    "mysqlConn": "vagrant:being2015@tcp(localhost:33060)/resource_db"
+}

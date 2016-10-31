@@ -1,0 +1,10 @@
+{
+    "listenPort" : ":8087",
+    "mqttServer" : "tcp://124.42.118.28:1883",
+    "mqttClientid" : "Robot_recorder",
+    "mqttCleanSession" : false,
+    "mqttUsername" : "mqtt",
+    "mqttPassword" : "3NpHg5Zk",
+    "mqttQos" : "0",
+    "topicName" : "liveroom/#"
+}

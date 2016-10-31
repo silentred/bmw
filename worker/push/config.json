@@ -1,0 +1,15 @@
+{
+    "apns_cert_dir" : "./",
+    "apns": {
+        "com.being.fame":         "fame_aps_production.pem",
+        "com.being.fame.tw":         "fame_tw_aps_production.pem",
+	    "com.being.fame.inhouse": "fame_inhouse_aps_production.pem"
+    },
+    "gcm_keys": {
+        "com.being.fame" : "AIzaSyDz9an_TI9vxCHQ-p1Xh8a7C6BvsywNpiI",
+        "com.being.fame.tw" : "AIzaSyBt2PvyBRBu4ZaSZYhTsULoX8uYZ_4eYyk",
+        "com.being.fame.inhouse" : "AIzaSyA2Qt0938WbcyZQn7tXT-5jaItD8GZgQvs",
+        "com.paktor.swan" : "AIzaSyCoK6F7xwXreDlT3TFGRocm6yQGfj_M2-Y"
+    },
+    "listenPort": ":8082"
+}

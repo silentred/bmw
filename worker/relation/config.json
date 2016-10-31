@@ -1,0 +1,4 @@
+{
+    "types" : ["fb", "phone"],
+    "listenPort": ":8083"
+}

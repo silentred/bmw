@@ -1,0 +1,5 @@
+## TODO
+
+- use `sort` package to sort user.Friends by tp_id
+- `Search` tp_id using BST instead of linear search
+- store all User in disk instead of memory

@@ -1,0 +1,18 @@
+# Mqtt Worker Config
+
+[Api]
+Host = "localhost"
+Port = "9017"
+
+[Mqtt]
+Host = "localhost:1883"
+Username = ""
+Password = ""
+
+[Beanstalk]
+Host = "localhost:11300"
+Tube = "default"
+
+[Etcd]
+EtcdHosts = ["http://localhost:2379"]
+ServiceName = "mqtt"
